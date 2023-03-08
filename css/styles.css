@@ -1,0 +1,169 @@
+#title{
+    background-color:#FF4C68;
+}
+.navbar-brand{
+    font-family: 'Rampart One', cursive;
+    font-size: 3rem;
+    color:white;
+    margin-right: 0;
+}
+h1{
+    font-family: 'Cinzel', serif;
+    line-height: 1.5;
+   font-size: 2rem; 
+   color:white;
+   font-weight: 1000;
+}
+.container-fluid{
+    padding: 3% 15% 3% 15%;
+}
+.apple{
+    width: 2rem;
+}
+.playstore{
+    width: 2rem;
+}
+.nav-link{
+    color: white;  
+    font-size: larger;  
+}
+.nav-item{
+    padding: 0 18px;
+}
+.title-dog-img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 10rem;
+
+}
+#navbarTogglerDemo01{
+    margin-left: 15rem;
+}
+#title-main-div{
+    padding:1rem 5rem 4rem 5rem;
+}
+.download-btn{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+/*features start*/
+
+#features{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    line-height: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.feature-icons{
+    color:#ef8172 ;
+}
+
+.feature-icons:hover{
+    color: #FF4C68;
+}
+
+/*features end*/
+
+/* Testimonials  */
+
+.testimonial-img{
+    width: 20%;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    margin-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Testimonials End */
+/* press */
+
+#press{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.press-img{
+    width:20%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+/* press end */
+/* pricing start*/
+.pricing{
+    margin-top:4rem;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color:#DDF7E3;
+}
+.pricing-heading{
+    margin-top:2rem;
+    margin-bottom: 4rem;
+}
+
+.pricing-body-content{
+    line-height: 2;
+}
+
+.pricing-body-content-3{
+    line-height: 1.5;
+}
+
+.border-info{
+    border-width: 0.3rem;
+}
+
+.mycard1:hover{
+    transform: rotateZ(30deg);
+    transition-duration: 1000ms;
+}
+
+.mycard2:hover{
+    transform: rotateZ(30deg);
+    transition-duration: 1000ms;
+}
+
+.mycard3:hover{
+    transform: rotateZ(30deg);
+    transition-duration: 1000ms;
+}
+
+/* pricing end */
+/* call to action start*/
+
+#cta{
+    background-color:#FF4C68;
+    padding: 4rem 4rem;
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+
+.cta-download{
+    padding-top:2rem;
+}
+
+
+/* call to action end */
+/* footer start */
+
+#footer{
+    padding: 4rem 4rem 0 4rem;
+    margin-top:4rem;
+}
+.footer-icons{
+    padding-left:0;
+    padding-right: 0;
+    
+}
+
+
+/* footer end */
