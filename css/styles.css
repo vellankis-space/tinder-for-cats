@@ -1,6 +1,11 @@
 #title{
     background-color:#FF4C68;
 }
+
+.sub-title{
+    font-size: medium;
+}
+
 .navbar-brand{
     font-family: 'Rampart One', cursive;
     font-size: 3rem;
@@ -14,6 +19,9 @@ h1{
    color:white;
    font-weight: 1000;
 }
+.love{
+    width: 100px;
+}
 .container-fluid{
     padding: 3% 15% 3% 15%;
 }
@@ -26,6 +34,10 @@ h1{
 .nav-link{
     color: white;  
     font-size: larger;  
+}
+.navbar-headings{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:larger;
 }
 .nav-item{
     padding: 0 18px;
@@ -62,6 +74,14 @@ h1{
 
 .feature-icons:hover{
     color: #FF4C68;
+}
+
+.feature-heading{
+    font-family: 'Fredoka One';
+}
+
+.feature-body{
+    font-family: 'Sono', sans-serif;
 }
 
 /*features end*/
