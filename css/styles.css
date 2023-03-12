@@ -1,5 +1,5 @@
 #title{
-    background-color:#FF4C68;
+    background-image: linear-gradient(to bottom, #1b4585, #574c9d, #8f4cab, #c746ac, #fb3ea1);
 }
 
 .sub-title{
@@ -42,12 +42,23 @@ h1{
 .nav-item{
     padding: 0 18px;
 }
-.title-dog-img{
-    width: 20rem;
-    height: 20rem;
-    margin-left: 10rem;
 
+.title-img-row{
+    width:20rem;
 }
+
+.title-cat-img-1{
+    width: 15rem;
+    height: 20rem;
+}
+
+.title-cat-img-2{
+    width: 15rem;
+    height: 20rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
 #navbarTogglerDemo01{
     margin-left: 15rem;
 }
