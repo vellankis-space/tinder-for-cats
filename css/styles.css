@@ -1,3 +1,5 @@
+/* Title Section Start */
+
 #title{
     background-image: linear-gradient(to bottom, #1b4585, #574c9d, #8f4cab, #c746ac, #fb3ea1);
 }
@@ -69,6 +71,9 @@ h1{
     margin-top: 4rem;
     margin-left: 2rem;
 }
+/* Title Section End */
+
+
 /*features start*/
 
 #features{
@@ -111,23 +116,28 @@ h1{
 }
 
 /* Testimonials End */
-/* press */
 
-#press{
+/* Companies Start*/
+
+#companies{
     margin-top: 4rem;
     margin-bottom: 4rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
 }
 
-.press-img{
-    width:20%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.companies-img{
+    width:10rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
+.bumble-img{
+    padding-left: 2.5rem;
+    padding-top: 1.5rem;
+    padding-right: 0;
+}
 
-/* press end */
+/* Companies end */
+
 /* pricing start*/
 .pricing{
     margin-top:4rem;
@@ -169,6 +179,8 @@ h1{
 }
 
 /* pricing end */
+
+
 /* call to action start*/
 
 #cta{
@@ -184,6 +196,8 @@ h1{
 
 
 /* call to action end */
+
+
 /* footer start */
 
 #footer{
