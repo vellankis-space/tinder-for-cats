@@ -1,7 +1,17 @@
-/* Title Section Start */
+/*********************************** Title Section Start *******************************/
 
 #title{
     background-image: linear-gradient(to bottom, #1b4585, #574c9d, #8f4cab, #c746ac, #fb3ea1);
+    overflow:hidden;
+}
+
+.container-fluid#title-main-div{
+    padding-right: 0;
+}
+
+.main-title{
+    position: relative;
+    right: 8rem;
 }
 
 .sub-title{
@@ -14,6 +24,7 @@
     color:white;
     margin-right: 0;
 }
+
 h1{
     font-family: 'Cinzel', serif;
     line-height: 1.5;
@@ -21,11 +32,14 @@ h1{
    color:white;
    font-weight: 1000;
 }
+
 .love{
+    position: relative;
+    right: 8rem;
     width: 100px;
 }
 .container-fluid{
-    padding: 3% 15% 3% 15%;
+    padding: 1% 15% 3% 15%;
 }
 .apple{
     width: 2rem;
@@ -33,6 +47,7 @@ h1{
 .playstore{
     width: 2rem;
 }
+
 .nav-link{
     color: white;  
     font-size: larger;  
@@ -46,35 +61,50 @@ h1{
 }
 
 .title-img-row{
+    position: relative;
+    left: 8rem;
     width:20rem;
 }
 
-.title-cat-img-1{
-    width: 15rem;
-    height: 20rem;
+.animate__animated.animate__flipInX{
+    animation-duration: 2s;
 }
 
-.title-cat-img-2{
-    width: 15rem;
-    height: 20rem;
-    margin-left: 5rem;
-    margin-top: 1rem;
+.main-title-content h1{
+    text-align: center;
+}
+
+.main-title-content{
+    position:relative;
+    top:8rem;
+    left: 6rem;
 }
 
 #navbarTogglerDemo01{
-    margin-left: 15rem;
-}
+    position: relative;
+    left: 8rem;
+    }
+
 #title-main-div{
-    padding:1rem 5rem 4rem 5rem;
+    padding:1rem 5rem 0 5rem;
 }
 .download-btn{
     margin-top: 4rem;
     margin-left: 2rem;
+    position: relative;
+    left: 4rem;
+    top:2rem;
 }
-/* Title Section End */
+
+.download-btn-1{
+    margin-right: 2rem;
+}
 
 
-/*features start*/
+/********************************* Title Section End ***********************************/
+
+
+/********************************* features start **************************************/
 
 #features{
     padding-top: 4rem;
@@ -100,9 +130,9 @@ h1{
     font-family: 'Sono', sans-serif;
 }
 
-/*features end*/
+/************************************* features end ************************************/
 
-/* Testimonials  */
+/************************************* Testimonials  ***********************************/
 
 .testimonial-img{
     width: 20%;
@@ -115,9 +145,9 @@ h1{
     padding-right: 2rem;
 }
 
-/* Testimonials End */
+/************************************* Testimonials End ********************************/
 
-/* Companies Start*/
+/************************************* Companies Start *********************************/
 
 #companies{
     margin-top: 4rem;
@@ -136,9 +166,10 @@ h1{
     padding-right: 0;
 }
 
-/* Companies end */
+/************************************* Companies end ***********************************/
 
-/* pricing start*/
+/************************************* pricing start ***********************************/
+
 .pricing{
     margin-top:4rem;
     margin-bottom: 4rem;
@@ -178,10 +209,10 @@ h1{
     transition-duration: 1000ms;
 }
 
-/* pricing end */
+/************************************* pricing end *************************************/
 
 
-/* call to action start*/
+/************************************* call to action start ****************************/
 
 #cta{
     background-color:#FF4C68;
@@ -195,10 +226,10 @@ h1{
 }
 
 
-/* call to action end */
+/************************************* call to action end ******************************/
 
 
-/* footer start */
+/************************************* footer start ***********************************/
 
 #footer{
     padding: 4rem 4rem 0 4rem;
@@ -209,10 +240,8 @@ h1{
     padding-right: 0;
 }
 .footer-icons:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
+    
     animation: shake 0.5s; 
-  
-    /* When the animation is finished, start again */
     animation-iteration-count: infinite; 
   }
   
@@ -230,4 +259,4 @@ h1{
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-/* footer end */
+/************************************* footer end *************************************/
